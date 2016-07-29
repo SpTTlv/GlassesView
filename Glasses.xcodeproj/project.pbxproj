@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC95DB61D4AF27A009B347D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC95DB51D4AF27A009B347D /* main.m */; };
+		DBC95DB91D4AF27A009B347D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC95DB81D4AF27A009B347D /* AppDelegate.m */; };
+		DBC95DBC1D4AF27A009B347D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC95DBB1D4AF27A009B347D /* ViewController.m */; };
+		DBC95DBF1D4AF27A009B347D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC95DBD1D4AF27A009B347D /* Main.storyboard */; };
+		DBC95DC11D4AF27A009B347D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC95DC01D4AF27A009B347D /* Assets.xcassets */; };
+		DBC95DC41D4AF27A009B347D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC95DC21D4AF27A009B347D /* LaunchScreen.storyboard */; };
+		DBC95DCF1D4AF27A009B347D /* GlassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC95DCE1D4AF27A009B347D /* GlassesTests.m */; };
+		DBC95DDA1D4AF27A009B347D /* GlassesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC95DD91D4AF27A009B347D /* GlassesUITests.m */; };
+		DBC95DE91D4AF404009B347D /* GlassImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC95DE81D4AF404009B347D /* GlassImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC95DCB1D4AF27A009B347D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC95DA91D4AF27A009B347D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC95DB01D4AF27A009B347D;
+			remoteInfo = Glasses;
+		};
+		DBC95DD61D4AF27A009B347D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC95DA91D4AF27A009B347D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC95DB01D4AF27A009B347D;
+			remoteInfo = Glasses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC95DB11D4AF27A009B347D /* Glasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC95DB51D4AF27A009B347D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBC95DB71D4AF27A009B347D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBC95DB81D4AF27A009B347D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBC95DBA1D4AF27A009B347D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBC95DBB1D4AF27A009B347D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBC95DBE1D4AF27A009B347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC95DC01D4AF27A009B347D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC95DC31D4AF27A009B347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC95DC51D4AF27A009B347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC95DCA1D4AF27A009B347D /* GlassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC95DCE1D4AF27A009B347D /* GlassesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlassesTests.m; sourceTree = "<group>"; };
+		DBC95DD01D4AF27A009B347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC95DD51D4AF27A009B347D /* GlassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC95DD91D4AF27A009B347D /* GlassesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlassesUITests.m; sourceTree = "<group>"; };
+		DBC95DDB1D4AF27A009B347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC95DE71D4AF404009B347D /* GlassImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlassImageView.h; sourceTree = "<group>"; };
+		DBC95DE81D4AF404009B347D /* GlassImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlassImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC95DAE1D4AF27A009B347D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC95DC71D4AF27A009B347D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC95DD21D4AF27A009B347D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC95DA81D4AF27A009B347D = {
+			isa = PBXGroup;
+			children = (
+				DBC95DB31D4AF27A009B347D /* Glasses */,
+				DBC95DCD1D4AF27A009B347D /* GlassesTests */,
+				DBC95DD81D4AF27A009B347D /* GlassesUITests */,
+				DBC95DB21D4AF27A009B347D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC95DB21D4AF27A009B347D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC95DB11D4AF27A009B347D /* Glasses.app */,
+				DBC95DCA1D4AF27A009B347D /* GlassesTests.xctest */,
+				DBC95DD51D4AF27A009B347D /* GlassesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC95DB31D4AF27A009B347D /* Glasses */ = {
+			isa = PBXGroup;
+			children = (
+				DBC95DB71D4AF27A009B347D /* AppDelegate.h */,
+				DBC95DB81D4AF27A009B347D /* AppDelegate.m */,
+				DBC95DBA1D4AF27A009B347D /* ViewController.h */,
+				DBC95DBB1D4AF27A009B347D /* ViewController.m */,
+				DBC95DE71D4AF404009B347D /* GlassImageView.h */,
+				DBC95DE81D4AF404009B347D /* GlassImageView.m */,
+				DBC95DBD1D4AF27A009B347D /* Main.storyboard */,
+				DBC95DC01D4AF27A009B347D /* Assets.xcassets */,
+				DBC95DC21D4AF27A009B347D /* LaunchScreen.storyboard */,
+				DBC95DC51D4AF27A009B347D /* Info.plist */,
+				DBC95DB41D4AF27A009B347D /* Supporting Files */,
+			);
+			path = Glasses;
+			sourceTree = "<group>";
+		};
+		DBC95DB41D4AF27A009B347D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC95DB51D4AF27A009B347D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC95DCD1D4AF27A009B347D /* GlassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC95DCE1D4AF27A009B347D /* GlassesTests.m */,
+				DBC95DD01D4AF27A009B347D /* Info.plist */,
+			);
+			path = GlassesTests;
+			sourceTree = "<group>";
+		};
+		DBC95DD81D4AF27A009B347D /* GlassesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC95DD91D4AF27A009B347D /* GlassesUITests.m */,
+				DBC95DDB1D4AF27A009B347D /* Info.plist */,
+			);
+			path = GlassesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC95DB01D4AF27A009B347D /* Glasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC95DDE1D4AF27A009B347D /* Build configuration list for PBXNativeTarget "Glasses" */;
+			buildPhases = (
+				DBC95DAD1D4AF27A009B347D /* Sources */,
+				DBC95DAE1D4AF27A009B347D /* Frameworks */,
+				DBC95DAF1D4AF27A009B347D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glasses;
+			productName = Glasses;
+			productReference = DBC95DB11D4AF27A009B347D /* Glasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC95DC91D4AF27A009B347D /* GlassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC95DE11D4AF27A009B347D /* Build configuration list for PBXNativeTarget "GlassesTests" */;
+			buildPhases = (
+				DBC95DC61D4AF27A009B347D /* Sources */,
+				DBC95DC71D4AF27A009B347D /* Frameworks */,
+				DBC95DC81D4AF27A009B347D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC95DCC1D4AF27A009B347D /* PBXTargetDependency */,
+			);
+			name = GlassesTests;
+			productName = GlassesTests;
+			productReference = DBC95DCA1D4AF27A009B347D /* GlassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC95DD41D4AF27A009B347D /* GlassesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC95DE41D4AF27A009B347D /* Build configuration list for PBXNativeTarget "GlassesUITests" */;
+			buildPhases = (
+				DBC95DD11D4AF27A009B347D /* Sources */,
+				DBC95DD21D4AF27A009B347D /* Frameworks */,
+				DBC95DD31D4AF27A009B347D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC95DD71D4AF27A009B347D /* PBXTargetDependency */,
+			);
+			name = GlassesUITests;
+			productName = GlassesUITests;
+			productReference = DBC95DD51D4AF27A009B347D /* GlassesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC95DA91D4AF27A009B347D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lv;
+				TargetAttributes = {
+					DBC95DB01D4AF27A009B347D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DBC95DC91D4AF27A009B347D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DBC95DB01D4AF27A009B347D;
+					};
+					DBC95DD41D4AF27A009B347D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DBC95DB01D4AF27A009B347D;
+					};
+				};
+			};
+			buildConfigurationList = DBC95DAC1D4AF27A009B347D /* Build configuration list for PBXProject "Glasses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC95DA81D4AF27A009B347D;
+			productRefGroup = DBC95DB21D4AF27A009B347D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC95DB01D4AF27A009B347D /* Glasses */,
+				DBC95DC91D4AF27A009B347D /* GlassesTests */,
+				DBC95DD41D4AF27A009B347D /* GlassesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC95DAF1D4AF27A009B347D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC95DC41D4AF27A009B347D /* LaunchScreen.storyboard in Resources */,
+				DBC95DC11D4AF27A009B347D /* Assets.xcassets in Resources */,
+				DBC95DBF1D4AF27A009B347D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC95DC81D4AF27A009B347D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC95DD31D4AF27A009B347D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC95DAD1D4AF27A009B347D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC95DBC1D4AF27A009B347D /* ViewController.m in Sources */,
+				DBC95DB91D4AF27A009B347D /* AppDelegate.m in Sources */,
+				DBC95DB61D4AF27A009B347D /* main.m in Sources */,
+				DBC95DE91D4AF404009B347D /* GlassImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC95DC61D4AF27A009B347D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC95DCF1D4AF27A009B347D /* GlassesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC95DD11D4AF27A009B347D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC95DDA1D4AF27A009B347D /* GlassesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC95DCC1D4AF27A009B347D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC95DB01D4AF27A009B347D /* Glasses */;
+			targetProxy = DBC95DCB1D4AF27A009B347D /* PBXContainerItemProxy */;
+		};
+		DBC95DD71D4AF27A009B347D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC95DB01D4AF27A009B347D /* Glasses */;
+			targetProxy = DBC95DD61D4AF27A009B347D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC95DBD1D4AF27A009B347D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC95DBE1D4AF27A009B347D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC95DC21D4AF27A009B347D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC95DC31D4AF27A009B347D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC95DDC1D4AF27A009B347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBC95DDD1D4AF27A009B347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC95DDF1D4AF27A009B347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Glasses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lv.Glasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBC95DE01D4AF27A009B347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Glasses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lv.Glasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBC95DE21D4AF27A009B347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GlassesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjwxc.GlassesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glasses.app/Glasses";
+			};
+			name = Debug;
+		};
+		DBC95DE31D4AF27A009B347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GlassesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjwxc.GlassesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glasses.app/Glasses";
+			};
+			name = Release;
+		};
+		DBC95DE51D4AF27A009B347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GlassesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjwxc.GlassesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Glasses;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DBC95DE61D4AF27A009B347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GlassesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjwxc.GlassesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Glasses;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC95DAC1D4AF27A009B347D /* Build configuration list for PBXProject "Glasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC95DDC1D4AF27A009B347D /* Debug */,
+				DBC95DDD1D4AF27A009B347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC95DDE1D4AF27A009B347D /* Build configuration list for PBXNativeTarget "Glasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC95DDF1D4AF27A009B347D /* Debug */,
+				DBC95DE01D4AF27A009B347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC95DE11D4AF27A009B347D /* Build configuration list for PBXNativeTarget "GlassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC95DE21D4AF27A009B347D /* Debug */,
+				DBC95DE31D4AF27A009B347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC95DE41D4AF27A009B347D /* Build configuration list for PBXNativeTarget "GlassesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC95DE51D4AF27A009B347D /* Debug */,
+				DBC95DE61D4AF27A009B347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC95DA91D4AF27A009B347D /* Project object */;
+}
